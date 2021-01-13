@@ -1,0 +1,80 @@
+.appMat {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row {
+    padding-top: 25px;
+}
+
+#row1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+    min-width: 100%;
+    transition: .8s;
+    overflow: hidden;
+}
+
+#goLeft {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 30%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#goRight {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 30%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.ar {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	font-size: 2vh;
+	opacity: .4;
+	transition: .5s ease-out
+}
+
+.ar:hover {
+	opacity: 1;
+    color: black;
+    transform: scale(1.1);
+	transition: .5s ease-out;
+}
+
+#dots {
+    position: absolute;
+    width: 100%;
+    text-align: middle;
+    bottom: 200px;
+
+}

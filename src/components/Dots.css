@@ -1,0 +1,22 @@
+.dotter {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background: black;
+    opacity: .2;
+}
+
+.dotter:active {
+    background: white;
+}
+
+.dotbox {
+    position: absolute;
+    bottom: 28%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+.appButton {
+    background-color: transparent;
+    border: none;
+    transition: .5s ease-out;
+}
+
+.appButton:focus {
+	outline: none;
+}
+
+.appButton:hover {
+    transform: scale(1.05);
+    transition: .5s ease-out;
+}
+
+
+.buttonPic {
+    width: 6vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buttonPic:hover {
+    cursor: pointer;
+}
+
+.app {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.name {
+    color: #fff
+}
